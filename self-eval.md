@@ -1,5 +1,10 @@
 # Self Evaluation
 
 - This final CFU encompassed everything you've learned in Mod 0, and maybe even required some learning outside of what you've explicitly been taught. How did it feel as you faced these challenges?
+  Initially I felt super defeated. I hit a wall and could not sort out how to solve some of the requirements. I think this was also contributed to the fact that it was our first live class, which I found a bit difficult. I realized its hard for me to comprehend everything when I am not learning at my own pace. I eventually started making some headway and then got on a zoom with Nick, neither of us had it completely figured out but by bouncing ideas off of each other we eventually got it all to work. In the end we each decided on some slightly different ways to solve certain things, but it was really great to see how there isn't always one to solve everything. I really enjoyed the process of struggling through this lesson!
+
 - How is your workflow going, in terms of taking breaks, staying focused, etc.?
+  I've been able to focus suprisingly well this week. I do find that I struggle when I am getting tired at the end of the day. I also tend to check out when I am struggling a lot, but I found talking to someone else helped bring me back. I definitely need to work on taking more breaks because in the long term it isn't a good habit. I will say that my lack of breaks wasn't due to a feeling of needing to finish, but more a feeling of enjoying what I was doing - so I guess that isn't a bad thing!
+
 - What do you need to do to be ready for intense technical lessons and challenges like this, for 6 hours/day next week? What support do you need?
+I think I need a bit more practice with what will work for me in live lessons. The live lesson scared me a bit, because I found that I was absolutely not grasping things in the same way I do when I can take time to read and take my own notes. I think just taking time to be a bit more prepared for live lessons will be good, and reviewing the material prior so I have an idea of what I am getting into is good. 
