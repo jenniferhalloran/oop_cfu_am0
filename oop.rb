@@ -31,9 +31,9 @@ p unicorn1.say("OMG, I'm a unicorn!")
 class Vampire
 # attr_reader :pet
 
-  def initialize(name)
+  def initialize(name, pet="bat")
     @name = name
-    @pet = "bat"
+    @pet = pet
     @thirsty = true
   end
 
@@ -43,7 +43,7 @@ class Vampire
 end
 
 #Test my code:
-vampire1 = Vampire.new("Dracula")
+vampire1 = Vampire.new("Dracula", "Cat")
 p vampire1
 
 vampire1.drink
