@@ -29,7 +29,7 @@ p unicorn1.say("OMG, I'm a unicorn!")
 
 
 class Vampire
- attr_reader :pet
+# attr_reader :pet
 
   def initialize(name)
     @name = name
@@ -69,9 +69,9 @@ class Dragon
   def eat
     @meals = @meals + 1
     if @meals >= 4
-      @is_hungry = false
+      @is_hungry == false
     elsif
-      @is_hungry = true
+      @is_hungry == true
     end
   end
 
@@ -97,3 +97,40 @@ p dragon1
 #  it should have an is_adult attribute (boolean) that is false by default. once a Hobbit is 33, it should be an adult
 #  it should have an is_old attribute that defaults to false. once a Hobbit is 101, it is old.
 #  it should have a has_ring attribute. If the Hobbit's name is "Frodo", true, if not, false.
+
+class Hobbit
+attr_reader :celebrate_birthday, :is_old, :is_adult, :has_ring
+
+  def initialize (name, disposition)
+    @name = name
+    if name == "Frodo"
+      @has_ring = true
+    elsif
+      @has_ring = false
+    end
+    @disposition = disposition
+    @age = 0
+    @is_adult = false
+    @is_old = false
+  end
+
+  def celebrate_birthday
+    @age = @age + 1
+    if @age >= 33 && @age < 101
+      @is_adult = true
+    elsif @age >= 101
+      @is_old = true
+      @is_adult = false
+    end
+  end
+end
+
+p hobbit1 = Hobbit.new("Sam", "friendly")
+
+102.times do
+  hobbit1.celebrate_birthday
+end
+
+p hobbit1
+
+p hobbit2 = Hobbit.new("Frodo", "adventurous")
