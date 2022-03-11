@@ -21,12 +21,33 @@ p unicorn1
 p unicorn1.say("OMG, I'm a unicorn!")
 
 
-
 #  Write a class called Vampire
 #  it should have a dynamic name attribute
 #  it should have a pet attribute, that is a bat, by default BUT it could be dynamic if info is passed in initially
 #  it should have a thirsty attribute, that is true by default
 #  it should have a drink method. When called, the thirsty attribute changes to false
+
+
+class Vampire
+ attr_reader :pet
+
+  def initialize(name)
+    @name = name
+    @pet = "bat"
+    @thirsty = true
+  end
+
+  def drink
+    @thirsty = false
+  end
+end
+
+#Test my code:
+vampire1 = Vampire.new("Dracula")
+p vampire1
+
+vampire1.drink
+p vampire1
 
 
 #  Write a Dragon class
