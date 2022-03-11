@@ -105,7 +105,7 @@ attr_reader :celebrate_birthday, :is_old, :is_adult, :has_ring
     @name = name
     if name == "Frodo"
       @has_ring = true
-    elsif
+    else
       @has_ring = false
     end
     @disposition = disposition
